@@ -6,8 +6,7 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     public float speed;
-    // whats updog
-    // pls tell me
+
     public int updog;
 
 
@@ -25,7 +24,6 @@ public class movement : MonoBehaviour
         //    Debug.Log("boop");
         //        }
        
-        // update deez nuuutss //
 
         Vector2 newPosition = this.transform.position;
 
