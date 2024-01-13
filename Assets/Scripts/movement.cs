@@ -6,6 +6,7 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     public float speed;
+    // whats updog
     public int updog;
 
 
