@@ -7,6 +7,7 @@ public class movement : MonoBehaviour
 {
     public float speed;
     // whats updog
+    // pls tell me
     public int updog;
 
 
