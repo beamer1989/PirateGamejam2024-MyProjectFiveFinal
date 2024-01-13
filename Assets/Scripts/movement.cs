@@ -24,6 +24,7 @@ public class movement : MonoBehaviour
         //    Debug.Log("boop");
         //        }
        
+        // update deez nuuutss //
 
         Vector2 newPosition = this.transform.position;
 
