@@ -25,6 +25,7 @@ public class movement : MonoBehaviour
         //        }
         //kill me
 
+        //why are we still here, just to suffer??
         Vector2 newPosition = this.transform.position;
 
         if (Input.GetKey(KeyCode.W))
