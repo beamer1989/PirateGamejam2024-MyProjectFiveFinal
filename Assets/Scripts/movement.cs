@@ -23,7 +23,7 @@ public class movement : MonoBehaviour
         //{
         //    Debug.Log("boop");
         //        }
-       
+        //kill me
 
         Vector2 newPosition = this.transform.position;
 
