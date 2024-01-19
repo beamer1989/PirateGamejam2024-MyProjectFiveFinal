@@ -9,6 +9,10 @@ public class movement : MonoBehaviour
 
     public int updog;
 
+    //doing some shit but im tired
+    //public Animator animator;
+    //Animator.SetFloat("PlayerMovementX", )
+
 
     // Start is called before the first frame update
     void Start()
