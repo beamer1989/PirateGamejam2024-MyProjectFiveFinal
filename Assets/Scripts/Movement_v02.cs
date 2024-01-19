@@ -9,6 +9,7 @@ public class Movement_v02 : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
+    public int updog;
 
     Vector2 movement;
 

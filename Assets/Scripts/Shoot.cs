@@ -11,12 +11,13 @@ public class Shoot : MonoBehaviour
     private GameObject slimebeingfired;
     public Camera cam;
 
-    public float cooldowntime = 2;
-    public float ammotimer;
-    public int maxammo = 5;
-    public int currentammo;
-    public float shoottimer;
-    public float shootcooldown = 0.1f;
+    public float regenTimer = 2;
+    private float regenTimeCounter;
+    public int maxRegenAmmo = 5;
+    public int currentAmmo;
+    private float shootTimeCounter;
+    public float shootCooldownTime = 0.1f;
+  
 
     Vector2 mousePos;
 
@@ -25,7 +26,8 @@ public class Shoot : MonoBehaviour
     //Update called at start
     private void Start()
     {
-        currentammo = maxammo;
+        currentAmmo = maxRegenAmmo;
+        cam = Camera.main;
     }
 
 
@@ -33,7 +35,7 @@ public class Shoot : MonoBehaviour
     void Update()
     {
         //Left Click
-        if (Input.GetMouseButtonDown(0) && currentammo > 0 && shoottimer > shootcooldown)
+        if (Input.GetMouseButtonDown(0) && currentAmmo > 0 && shootTimeCounter > shootCooldownTime)
         {
             Debug.Log("Mouse 0 - Left Click");
 
@@ -64,31 +66,31 @@ public class Shoot : MonoBehaviour
             Destroy(slimebeingfired, 0.5f);
 
             //Removes 1 from ammo counter
-            currentammo --;
+            currentAmmo --;
 
             //Resets shoot timer
-            shoottimer = 0;
+            shootTimeCounter = 0;
         }
         regenerateammo();
 
-        shoottimer += Time.deltaTime;
+        shootTimeCounter += Time.deltaTime;
 
     }
 
     void regenerateammo()
     {
-        if(currentammo >= maxammo)
+        if(currentAmmo >= maxRegenAmmo)
         {
             return;
         }
-    if(ammotimer > cooldowntime)
+    if(regenTimeCounter > regenTimer)
         {
-            currentammo ++;
-            ammotimer = 0;
+            currentAmmo ++;
+            regenTimeCounter = 0;
         }
         else
         {
-            ammotimer = ammotimer + Time.deltaTime;
+            regenTimeCounter = regenTimeCounter + Time.deltaTime;
         }
     }
 
