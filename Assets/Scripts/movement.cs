@@ -27,8 +27,9 @@ public class movement : MonoBehaviour
         //{
         //    Debug.Log("boop");
         //        }
-       
+        //kill me
 
+        //why are we still here, just to suffer??
         Vector2 newPosition = this.transform.position;
 
         if (Input.GetKey(KeyCode.W))
@@ -52,5 +53,8 @@ public class movement : MonoBehaviour
         }
 
         this.transform.position = newPosition;
+
+        // owo whats this?? a cwomment??
+        // uwu ow nwo another cwomment
     }
 }
