@@ -37,14 +37,14 @@ public class Shoot : MonoBehaviour
         //Left Click
         if (Input.GetMouseButtonDown(0) && currentAmmo > 0 && shootTimeCounter > shootCooldownTime)
         {
-            Debug.Log("Mouse 0 - Left Click");
+            //Debug.Log("Mouse 0 - Left Click");
 
             // Gets the Mouse Position
             // (0, 0) at the bottom left
             // (width, height) at the top right
-            Debug.Log(Input.mousePosition);
+            //Debug.Log(Input.mousePosition);
             //ScreentoWorldPoint to get the World Coordinates
-            Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            //Debug.Log(Camera.main.ScreenToWorldPoint(Input.mousePosition));
 
             //Spawn Slime
             slimebeingfired = Instantiate(slime, transform.position, Quaternion.identity);
