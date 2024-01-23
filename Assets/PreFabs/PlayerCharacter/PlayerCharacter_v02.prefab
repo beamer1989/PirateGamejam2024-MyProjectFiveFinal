@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -128512482934678225}
   - component: {fileID: -1246895946852851364}
   - component: {fileID: 2078188947052873801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerCharacter_v02
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -167,12 +167,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slime: {fileID: 2165733909370304605, guid: ba3732466e97e434487946ccab6f1731, type: 3}
   cam: {fileID: 0}
-  cooldowntime: 2
-  ammotimer: 0
-  maxammo: 8008
-  currentammo: 0
-  shoottimer: 0
-  shootcooldown: 0.05
+  regenTimer: 2
+  maxRegenAmmo: 5
+  currentAmmo: 0
+  shootCooldownTime: 0.1
   slimeForce: 25
 --- !u!70 &2078188947052873801
 CapsuleCollider2D:

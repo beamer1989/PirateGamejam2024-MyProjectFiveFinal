@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8673551878163593863}
   - component: {fileID: 2346709339522594800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SlimeSplat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
