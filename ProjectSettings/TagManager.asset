@@ -6,6 +6,7 @@ TagManager:
   tags:
   - slime
   - cat
+  - ENEMY00
   layers:
   - Default
   - TransparentFX
