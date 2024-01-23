@@ -6,6 +6,7 @@ public class HitBySlime : MonoBehaviour
 {
 
     public GameObject slime;
+    public GameObject cat;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class HitBySlime : MonoBehaviour
             Destroy(this.gameObject);
 
             Instantiate(slime, this.transform.position, Quaternion.identity);
+            Instantiate(cat, this.transform.position, Quaternion.identity);
         }
      
     }
