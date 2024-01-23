@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - slime
+  - cat
+  - ENEMY00
   layers:
   - Default
   - TransparentFX
