@@ -21,7 +21,7 @@ public class Shoot : MonoBehaviour
 
     Vector2 mousePos;
 
-    public float slimeForce = 25f;
+    public float slimeForce = 15f;
 
     //Update called at start
     private void Start()
