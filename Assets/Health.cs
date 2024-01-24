@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Health : MonoBehaviour
@@ -10,13 +11,13 @@ public class Health : MonoBehaviour
     public int currentiframe = 60;
     public int maxiframes = 60;
 
-    public GameObject healthBar;
+    public HealthBarScript healthBar;
     
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthBar.SetMaxHealth(health); 
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
@@ -27,7 +28,7 @@ public class Health : MonoBehaviour
             { 
                 currentiframe = 1;
                 health = health - 1;
-                healthBar.GetComponent<Slider>().value = health;
+                healthBar.SetHealth(health);
                 
             }
         
@@ -50,7 +51,7 @@ public class Health : MonoBehaviour
     {
         if (health == 0)
         {
-            print("dead");
+            SceneManager.LoadScene(3);
         }
     }
 }
