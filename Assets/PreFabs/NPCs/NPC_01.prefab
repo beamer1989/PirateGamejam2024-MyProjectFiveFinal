@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 6877392182348113506}
   - component: {fileID: 3283692932740394485}
   - component: {fileID: 8217095200201691270}
+  - component: {fileID: -2820195179421738356}
+  - component: {fileID: -5633598454711282150}
   m_Layer: 0
   m_Name: NPC_01
   m_TagString: ENEMY00
@@ -262,3 +264,44 @@ MonoBehaviour:
   version: 1
   target: {fileID: 0}
   targetObject: {fileID: 0}
+--- !u!114 &-2820195179421738356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2748401529615774029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d773a343f5b384281eda3d395476ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetWinCondition: {fileID: 0}
+  WinCondition: {fileID: 0}
+--- !u!50 &-5633598454711282150
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2748401529615774029}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
