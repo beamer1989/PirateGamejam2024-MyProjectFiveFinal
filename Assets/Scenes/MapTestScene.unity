@@ -6494,6 +6494,14 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1362099651}
+    - target: {fileID: -8067670142333900190, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
+      propertyPath: maxiframes
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8067670142333900190, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
+      propertyPath: currentiframe
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3125365712236454907, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter_v02
