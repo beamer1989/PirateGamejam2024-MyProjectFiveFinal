@@ -22,12 +22,12 @@ public class NPCanimator : MonoBehaviour
         movement.y = transform.position.y - lastposition.y;
         movement.Normalize();
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-
-        Debug.Log(movement);
-        
+        if (transform.position.x != lastposition.x && transform.position.y != lastposition.y)
+        {
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            animator.SetFloat("Speed", movement.sqrMagnitude);
+        }
         lastposition = transform.position;
     }
 }
