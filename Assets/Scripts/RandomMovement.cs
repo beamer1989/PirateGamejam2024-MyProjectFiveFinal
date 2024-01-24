@@ -7,11 +7,6 @@ using UnityEngine.UIElements;
 
 public class RandomMovement : MonoBehaviour
 {
-    //FOR ANIMATIONS:
-    public Animator animator;
-    Vector2 movement;
-    Vector2 lastposition;
-
     [SerializeField]
     float speed;
     [SerializeField]
@@ -27,7 +22,6 @@ public class RandomMovement : MonoBehaviour
     {
         SetNewDestination();
 
-        lastposition = transform.position;
     }
 
     // Update is called once per frame
@@ -39,16 +33,7 @@ public class RandomMovement : MonoBehaviour
             SetNewDestination();
         }
 
-        //Detect movement for animation
-        movement.x = transform.position.x - lastposition.x;
-        movement.y = transform.position.y - lastposition.y;
-        movement.Normalize();
-
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-
-        lastposition = transform.position;
+        
     }
 
     void SetNewDestination()
