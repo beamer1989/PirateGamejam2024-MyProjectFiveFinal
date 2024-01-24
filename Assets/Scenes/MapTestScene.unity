@@ -1226,6 +1226,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4748336461158509801, guid: 3a39bcd12c4cd9a4d8202914acb68d9d, type: 3}
+      propertyPath: PlayerCharacter
+      value: 
+      objectReference: {fileID: 690864409}
     - target: {fileID: 6622233563536669358, guid: 3a39bcd12c4cd9a4d8202914acb68d9d, type: 3}
       propertyPath: m_Name
       value: AmmoCanvas
@@ -5551,6 +5555,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 187251434775781595, guid: b8fce86d51e6ae449897e49bde638a5f, type: 3}
   m_PrefabInstance: {fileID: 1023369315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &690864409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3125365712236454907, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
+  m_PrefabInstance: {fileID: 1087064303}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &695735889 stripped
 Transform:
