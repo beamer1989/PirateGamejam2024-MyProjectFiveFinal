@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class WinCondition : MonoBehaviour
 {
-    public int killpoint = 10;
+    public int killpoint = 100;
     public int currentkill = 0;
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class WinCondition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentkill == killpoint)
+        if (currentkill >= killpoint)
         {
             SceneManager.LoadScene(4);
         }
