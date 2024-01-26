@@ -1641,7 +1641,7 @@ PrefabInstance:
     - target: {fileID: 2502530652658671541, guid: e7d0e634e4d8a6d43b4a560fbe858fda, type: 3}
       propertyPath: PlayerCharacter
       value: 
-      objectReference: {fileID: 957831279}
+      objectReference: {fileID: 0}
     - target: {fileID: 3182723155771440675, guid: e7d0e634e4d8a6d43b4a560fbe858fda, type: 3}
       propertyPath: m_Name
       value: AmmoBorder
@@ -1991,7 +1991,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5116971166963584942, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
@@ -2160,11 +2161,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2238317677918052800, guid: 5c0425941e1afc143a3b03842ee1912e, type: 3}
   m_PrefabInstance: {fileID: 925635857}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &957831279 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3125365712236454907, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
-  m_PrefabInstance: {fileID: 666395997}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &959021290
 GameObject:
