@@ -7,7 +7,7 @@ public class GoToCredits : MonoBehaviour
 {
 
     private int countDownTimer = 0;
-    private int targetTime = 100;
+    private int targetTime = 150;
 
     // Start is called before the first frame update
     void Start()
