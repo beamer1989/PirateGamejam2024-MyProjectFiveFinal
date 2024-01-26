@@ -250,8 +250,8 @@ MonoBehaviour:
 
     Shoot Slimes - Left Click'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
+  m_sharedMaterial: {fileID: -2612193049400362394, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -275,8 +275,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -425,7 +425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39, y: 224.02676}
+  m_AnchoredPosition: {x: -157, y: 245}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120718823
@@ -450,8 +450,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Controls
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
+  m_sharedMaterial: {fileID: -2612193049400362394, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -914,15 +914,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7826952, g: 1, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0.69129705, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 98eb17b3830ed194f9607cfc0dd6ddc0, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 279b265926bb21a4aa37d8b9fa7d4dcc, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1641,7 +1641,7 @@ PrefabInstance:
     - target: {fileID: 2502530652658671541, guid: e7d0e634e4d8a6d43b4a560fbe858fda, type: 3}
       propertyPath: PlayerCharacter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1917689470}
     - target: {fileID: 3182723155771440675, guid: e7d0e634e4d8a6d43b4a560fbe858fda, type: 3}
       propertyPath: m_Name
       value: AmmoBorder
@@ -1859,15 +1859,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
+  m_sharedMaterial: {fileID: -2612193049400362394, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1945,10 +1945,6 @@ PrefabInstance:
     - target: {fileID: 3125365712236454907, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter_v02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4316069159764900724, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7823648274284370939, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2308,12 +2304,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2757,15 +2753,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7826952, g: 1, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0.69411767, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 98eb17b3830ed194f9607cfc0dd6ddc0, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 279b265926bb21a4aa37d8b9fa7d4dcc, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2877,7 +2873,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1, y: 1, z: 0}
   m_MaxChunkCount: 16
@@ -3550,8 +3546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 510, y: 449.72095}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 658.9636, y: 180.08856}
+  m_SizeDelta: {x: 502.8652, y: 594.9538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464924841
 MonoBehaviour:
@@ -3573,13 +3569,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "- Collect Slimes by \nwalking over them\n\n- Click in the direction \nyou
-    want to throw them\n\n- Avoid the guys \ncrowding you.  Don't let them\ntouch
-    you.  GROSS!\n\n- Hit them with slimes to \nSET. THEM. FREE.\n\n- Free 100 Souls
-    to WINNN"
+  m_text: '- Collect Slimes by walking over them
+
+
+    - Click in the direction you
+    want to throw them
+
+
+    - Avoid the guys crowding you.  Don''t let them touch
+    you.  GROSS!
+
+
+    - Hit them with slimes to SET. THEM. FREE.
+
+
+    - Free 100
+    Souls to WINNN'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
+  m_sharedMaterial: {fileID: -2612193049400362394, guid: 522e8f241a53eea4689c8e9ee271f3b2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3603,8 +3611,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 39.2
+  m_fontSizeBase: 39.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3639,7 +3647,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -748.6099, w: 0}
+  m_margin: {x: 0, y: 0, z: 2.4182281, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4245,6 +4253,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2238317677918052800, guid: 5c0425941e1afc143a3b03842ee1912e, type: 3}
   m_PrefabInstance: {fileID: 1908587759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1917689470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3125365712236454907, guid: 485ab5917d96a1b419e999334cb70262, type: 3}
+  m_PrefabInstance: {fileID: 666395997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1960363908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4485,7 +4498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.83488464, g: 1, b: 0.39215684, a: 1}
+  m_Color: {r: 0, g: 0.69411767, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
