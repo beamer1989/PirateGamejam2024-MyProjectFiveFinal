@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     public int maxiframes = 60;
 
     public HealthBarScript healthBar;
-    
+    public AudioSource damageSound;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,7 @@ public class Health : MonoBehaviour
                 currentiframe = 1;
                 health = health - 1;
                 healthBar.SetHealth(health);
-                
+                damageSound.Play();
             }
         
          
